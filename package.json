@@ -1,0 +1,21 @@
+{
+  "name": "with-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prewebpack:dev": "tsc webpack.dev.config.ts",
+    "webpack:dev": "webpack --config webpack.dev.config.js"
+  },
+  "keywords": [],
+  "author": "Mateja Petrovic <mateja176@gmail.com> (https://github.com/mytee306)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^11.10.4",
+    "@types/webpack": "^4.4.25",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}
